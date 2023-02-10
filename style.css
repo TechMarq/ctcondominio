@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+.logo{
+    height: 200px;
+    display: block;
+    justify-content: center;
+    text-align: center; 
+
+}
+.logo img{
+    width: 250px;
+
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social img{
+    filter: brightness(0) saturate(100%) invert(64%) sepia(37%) saturate(565%) hue-rotate(1deg) brightness(101%) contrast(84%);
+    width: 40px;
+}
+
+.linkinteractive{
+    margin-top: 10px;
+}
+
+.linkinteractive li{
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 03px 5px #CFA658;
+    margin: 20px 20px;
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+h1{
+    font-family: 'Montserrat',sans-serif,
+}
+h2{    
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+    color: black;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.slogan img{
+    width: 250px;
+    height: 200px;
+}
+
+button{
+    position: relative;
+    background-color: #CFA658;
+    border-radius: 20px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    margin-top: 50px;
+    }
+
+.semburocracia{
+    position: relative;
+    background-color: #CFA658;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+
+.final{
+    text-align: center;
+    color: white;
+    font-size: 06px;
+    margin-left: 10px;
+}
+.final a{
+    color: rgb(127, 214, 255);
+}
+
+
+.iframe{
+    width: 415px;
+    margin-top: 100px;
+}
+
+.formularios img{
+    width: 415px;
+    position: fixed;
+}
+
